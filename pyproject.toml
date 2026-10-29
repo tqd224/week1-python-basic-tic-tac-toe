@@ -1,0 +1,15 @@
+[project]
+name = "ds-coding-tic-tac-toe"
+version = "0.1.0"
+requires-python = ">=3.13.17"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]
+
+[tool.uv]
+required-version = ">=0.13.5"
+# Apply certificate fixes without adding unused runtime packages.
+constraint-dependencies = ["certifi>=2026.10.19", "pip>=26.2.2"]
